@@ -59,6 +59,7 @@ Diseño planificado con Stitch antes de programar.
 ## 📋 Planificación de commits
 - `chore`: add .gitignore
 - `docs`: add README
+- `feat`: add project folder structure
 - `docs`: add prototype screenshot to README
 - `feat`: add base HTML structure
 - `style`: add CSS variables and color palette
