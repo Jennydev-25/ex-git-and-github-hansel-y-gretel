@@ -1,46 +1,97 @@
-# Exercise - Git and GitHub - Little Red Riding Hood
+# 🌲 Hansel y Gretel 🌲
 
-## Descripción
+> *"Dejaron un rastro de migas... pero el bosque tiene hambre."*
 
-El objetivo de este ejercicio es practicar **cuándo y por qué** se realizan los commits, aplicando buenas prácticas de control de versiones. Deberás contar una historia clásica mediante código, prestando especial atención al historial (Git Graph) de tu repositorio.
+## 📖 Descripción
 
-## Instrucciones
+Este proyecto forma parte de un ejercicio de Git donde el objetivo principal es practicar 
+**cuándo y por qué** se realizan los commits, aplicando buenas 
+prácticas como la atomicidad, los mensajes descriptivos y el flujo 
+de trabajo con ramas.
 
-1. Crea un repositorio en GitHub llamado `ex-git-little-red-riding-hood` (o `ex-git-three-little-pigs` si prefieres esa historia. También puedes elegir otro cuento según tu preferencia).
-2. **Planificación**: Utiliza Stitch (o herramienta similar) para prototipar tu historia. Antes de programar, analiza y planifica qué commits vas a realizar. Explica en el Readme tu analizis y tu planificación.
-3. **Desarrollo**:
-   - Cuenta la historia de Caperucita Roja mediante **HTML**. (División clara entre momento claves o capítulos)
-   - Añade estilos y diseño con **CSS**.
-   - Enriquece la historia con imágenes.
-4. **Control de Versiones**: Realiza los commits pertinentes y súbelos al repositorio. **Importante**: El *cuándo* se hace el commit es clave.
-5. **Despliegue**: Activa **GitHub Pages** para visualizar el resultado.
+Para contarlo, decidí adaptar el clásico cuento de los hermanos Grimm **Hansel y Gretel**: 
+dos hermanos abandonados en lo más profundo de un bosque oscuro. 
+Sin más guía que las estrellas y un rastro de migas de pan, su camino 
+los llevó hasta algo inesperado: una casita hecha de chocolate y caramelo.
 
-## Buenas Prácticas para Commits
+Pero las cosas dulces a veces esconden peligros amargos.
 
-Para superar este ejercicio con éxito, aplica estas reglas en tu flujo de trabajo:
+Su historia está contada capítulo a capítulo mediante HTML y CSS.
 
-- **Atomicidad**: Cada commit debe resolver una única tarea lógica (ej: "Crear estructura HTML básica", "Añadir estilos al header"). No mezcles cambios de diferentes contextos en un solo commit.
-- **Mensajes Descriptivos**: El mensaje debe explicar *qué* hace el commit y el *por qué* de los cambios, en lugar del *cómo*. Usa imperativo (ej: `feat: add navigation bar` o `style: change background color`).
-- **Frecuencia**: Haz commit a menudo. No esperes a terminar todo el proyecto. Si algo funciona, haz commit.
-- **Convenciones**: Usar *Conventional Commits* (prefijos como `feat:`, `fix:`, `docs:`, `style:`) para mantener el historial ordenado. [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
+## 🔍 Análisis
 
-## Requisitos Técnicos
+Antes de programar analicé la historia de Hansel y Gretel para 
+dividirla en momentos clave. Identifiqué 6 capítulos con un arco 
+narrativo claro: desde el abandono en el bosque hasta el regreso 
+a casa, pasando por el peligro de la bruja.
 
-- Uso de HTML5 y CSS3.
-- Despliegue funcional en GitHub Pages.
+Cada capítulo tiene su propio peso emocional, por lo que decidí 
+darle a cada uno su propia sección visual con imagen y texto.
 
-## Entregables
+## 🗺️ Capítulos
 
-- Enlace al repositorio de GitHub.
-- Enlace a la página desplegada en GitHub Pages.
-- Una captura de pantalla del resultado final (visible en el `README.md` del repositorio).
+1. 🌲 El bosque
+2. 🍞 Las migas
+3. 🏠 La casita
+4. 🧙‍♀️ La bruja
+5. 🔥 La trampa
+6. 🏡 El regreso a casa
 
----
+## 📐 Planificación
+
+Usé Stitch para prototipar el diseño visual antes de escribir 
+código. Decidí una estructura clara:
+
+- **Header**: título e imagen de portada del bosque
+- **Nav**: índice interactivo con los 6 capítulos
+- **Main**: un bloque por capítulo con imagen y texto
+- **Moral**: reflexión final de la historia
+- **Footer**: autoría y año
+
+Cada sección se desarrolló en su propia rama de Git para 
+mantener un historial limpio y ordenado.
+
+## 🎨 Prototipo
+Diseño planificado con Stitch antes de programar.
+
+![Prototipo](assets/imgs/prototipo.png)
+
+## 📋 Planificación de commits
+- `chore`: add .gitignore
+- `docs`: add README
+- `docs`: add prototype screenshot to README
+- `feat`: add base HTML structure
+- `style`: add CSS variables and color palette
+- `style`: add Google Fonts
+- `feat`: add header
+- `style`: add header styles
+- `feat`: add nav
+- `style`: add nav styles
+- `feat`: add chapter 1 - el bosque
+- `feat`: add image chapter 1
+- `style`: add chapter 1 styles
+- `feat`: add chapter 2 - las migas
+- `feat`: add image chapter 2
+- `style`: add chapter 2 styles
+- `feat`: add chapter 3 - la casita
+- `feat`: add image chapter 3
+- `style`: add chapter 3 styles
+- `feat`: add chapter 4 - la bruja
+- `feat`: add image chapter 4
+- `style`: add chapter 4 styles
+- `feat`: add chapter 5 - la trampa
+- `feat`: add image chapter 5
+- `style`: add chapter 5 styles
+- `feat`: add chapter 6 - el regreso
+- `feat`: add image chapter 6
+- `style`: add chapter 6 styles
+- `feat`: add moral lesson
+- `style`: add moral styles
+- `feat`: add footer
+- `style`: add footer styles
 
 
-|   Nivel                            | Descripción del desempeño                                                                                      | Puntuación |
-|------------------------------------|----------------------------------------------------------------------------------------------------------------|------------|
-| Ejercicio no entregado | No se entrega repositorio, no hay código, o no existe ninguna contribución real en el historial de commits.                |	0 pts      |
-| Ejercicio no cumple con un mínimo. | El repositorio existe pero no cumple los requisitos mínimos: historia incompleta, HTML o CSS insuficientes, commits escasos o mal estructurados, README pobre o inexistente, sin despliegue en GitHub Pages. | 40 pts |
-| Ejercicio cumple con un mínimo pero falla en ciertos aspectos | La historia está contada en HTML, hay estilos CSS básicos, imágenes añadidas, commits realizados con cierta lógica, README funcional, y GitHub Pages activado. Sin embargo, faltan buenas prácticas claras, planificación insuficiente o commits poco atómicos. | 70 pts |
-| Ejercicio  completo y con todos los requisitos implementados | Historia completa en HTML con capítulos claros, CSS trabajado, imágenes integradas, planificación explicada en el README, commits atómicos y bien descritos siguiendo Conventional Commits, historial limpio, despliegue en GitHub Pages funcional, y README bien redactado con captura final. | 100 pts |
+## 🛠️ Tecnologías
+- HTML5
+- CSS3
+
