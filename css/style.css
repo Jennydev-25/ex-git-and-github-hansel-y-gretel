@@ -23,13 +23,13 @@ body {
   color: var(--color-neutral);
 }
 
-/*  HEADER  */
+/* ----- HEADER ----- */
 header {
   background-color: var(--color-background);
   padding: 0;
 }
 
-/* HEADER CONTENT */
+/* ----- HEADER CONTENT ----- */
 .header-content {
   display: flex;
   justify-content: space-between;
@@ -73,7 +73,7 @@ h1 {
   border-radius: 1rem;
 }
 
-/* NAV */
+/* ----- NAV ----- */
 nav {
   display: flex;
   justify-content: space-between;
@@ -111,7 +111,7 @@ nav ul a {
   font-weight: 600;
 }
 
-/* NAV / ÍNDICE */
+/* ----- NAV / ÍNDICE ----- */
 nav#capitulos {
   text-align: center;
   padding: 4rem 2rem;
@@ -172,7 +172,7 @@ nav#capitulos ul li a p {
   color: var(--color-secondary);
 }
 
-/*  CAPÍTULO 1  */
+/* ----- CAPÍTULO 1 ----- */
 #capitulo-1 {
   padding: 4rem 2rem;
   border-bottom: 1px solid var(--color-secondary);
@@ -210,6 +210,49 @@ nav#capitulos ul li a p {
 }
 
 #capitulo-1 p {
+  line-height: 1.8;
+  color: var(--color-secondary);
+}
+
+/* ------ CAPÍTULO 2 ------ */
+#capitulo-2 {
+  padding: 4rem 2rem;
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+#capitulo-2 article {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+}
+
+#capitulo-2 figure {
+  flex: 1;
+  min-width: 300px;
+}
+
+#capitulo-2 figure img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+#capitulo-2 .chapter-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#capitulo-2 h2 {
+  font-family: var(--font-headline);
+  font-size: 2rem;
+  color: var(--color-neutral);
+}
+
+#capitulo-2 p {
   line-height: 1.8;
   color: var(--color-secondary);
 }
