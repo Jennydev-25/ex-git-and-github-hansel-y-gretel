@@ -91,6 +91,8 @@ Diseño planificado con Stitch antes de programar.
 - `style`: add moral styles
 - `feat`: add footer
 - `style`: add footer styles
+- `fix`: fix header and nav styles
+- `fix`: fix responsive layout
 
 
 ## 🛠️ Tecnologías
