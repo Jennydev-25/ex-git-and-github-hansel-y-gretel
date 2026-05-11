@@ -21,6 +21,8 @@ body {
   font-family: var(--font-body);
   background-color: var(--color-background);
   color: var(--color-neutral);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* ----- HEADER ----- */
@@ -36,7 +38,7 @@ header {
   align-items: center;
   padding: 4rem 2rem;
   gap: 2rem;
-  max-width: 900px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -146,7 +148,7 @@ nav#capitulos ul {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   list-style: none;
-  max-width: 900px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -193,7 +195,7 @@ nav#capitulos ul li a p {
   display: flex;
   align-items: center;
   gap: 3rem;
-  max-width: 900px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -235,7 +237,7 @@ nav#capitulos ul li a p {
   display: flex;
   align-items: center;
   gap: 3rem;
-  max-width: 900px;
+  max-width: 90%;
   margin: 0 auto;
   flex-direction: row-reverse;
 }
@@ -278,7 +280,7 @@ nav#capitulos ul li a p {
   display: flex;
   align-items: center;
   gap: 3rem;
-  max-width: 900px;
+  max-width: 90%;
   margin: 0 auto;
   flex-direction: row;
 }
@@ -321,7 +323,7 @@ nav#capitulos ul li a p {
   display: flex;
   align-items: center;
   gap: 3rem;
-  max-width: 900px;
+  max-width: 90%;
   margin: 0 auto;
   flex-direction: row-reverse;
 }
@@ -364,7 +366,7 @@ nav#capitulos ul li a p {
   display: flex;
   align-items: center;
   gap: 3rem;
-  max-width: 900px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -407,7 +409,7 @@ nav#capitulos ul li a p {
   display: flex;
   align-items: center;
   gap: 3rem;
-  max-width: 900px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
