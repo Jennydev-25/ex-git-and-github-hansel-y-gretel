@@ -385,3 +385,49 @@ nav#capitulos ul li a p {
   color: var(--color-secondary);
 }
 
+/* ----- CAPÍTULO 6 ----- */
+/* ----- CAPÍTULO 6 ----- */
+#capitulo-6 {
+  padding: 4rem 2rem;
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+#capitulo-6 article {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#capitulo-6 figure {
+  flex: 0 0 350px;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+#capitulo-6 figure img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+#capitulo-6 .chapter-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#capitulo-6 h2 {
+  font-family: var(--font-headline);
+  font-size: 2rem;
+  color: var(--color-neutral);
+}
+
+#capitulo-6 p {
+  line-height: 1.8;
+  color: var(--color-secondary);
+}
+
