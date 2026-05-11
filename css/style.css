@@ -110,3 +110,64 @@ nav ul a {
   font-family: var(--font-body);
   font-weight: 600;
 }
+
+/* ===== NAV / ÍNDICE ===== */
+nav#capitulos {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: var(--color-background);
+}
+
+nav#capitulos h2 {
+  font-family: var(--font-headline);
+  font-size: 2rem;
+  color: var(--color-neutral);
+  margin-bottom: 0.5rem;
+}
+
+nav#capitulos > p {
+  color: var(--color-secondary);
+  margin-bottom: 3rem;
+}
+
+nav#capitulos ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  list-style: none;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+nav#capitulos ul li a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+nav#capitulos ul li a:hover {
+  background-color: var(--color-white);
+}
+
+.chapter-number {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+nav#capitulos ul li a h3 {
+  font-family: var(--font-headline);
+  font-size: 1.2rem;
+  color: var(--color-neutral);
+}
+
+nav#capitulos ul li a p {
+  font-size: 0.85rem;
+  color: var(--color-secondary);
+}
