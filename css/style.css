@@ -477,3 +477,23 @@ nav#capitulos ul li a p {
   color: var(--color-primary);
   font-weight: 600;
 }
+
+/* ----- FOOTER ----- */
+footer {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer p {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+}
+
+footer strong {
+  color: var(--color-tertiary);
+}
