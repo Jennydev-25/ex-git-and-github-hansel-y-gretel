@@ -93,9 +93,14 @@ Diseño planificado con Stitch antes de programar.
 - `style`: add footer styles
 - `fix`: fix header and nav styles
 - `fix`: fix responsive layout
-
+- `docs`: add final screenshot to README
 
 ## 🛠️ Tecnologías
 - HTML5
 - CSS3
 
+## 📸 Resultado Final
+
+> *Captura tomada al 33% de zoom para mostrar un poco más la página.*
+
+![Resultado Final](assets/imgs/resultado-final.png)
