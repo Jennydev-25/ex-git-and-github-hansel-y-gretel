@@ -36,6 +36,8 @@ header {
   align-items: center;
   padding: 4rem 2rem;
   gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .header-text {
@@ -67,9 +69,13 @@ h1 {
   color: var(--color-secondary);
 }
 
+.header-image {
+  flex: 1;
+  max-width: 400px;
+}
+
 .header-image img {
   width: 100%;
-  max-width: 400px;
   border-radius: 1rem;
 }
 
@@ -109,13 +115,18 @@ nav ul a {
   text-decoration: none;
   font-family: var(--font-body);
   font-weight: 600;
+  width: fit-content;
+  display: inline-block;
 }
 
 /* ----- NAV / ÍNDICE ----- */
 nav#capitulos {
+  display: block !important;
   text-align: center;
   padding: 4rem 2rem;
   background-color: var(--color-background);
+  border-top: 1px solid var(--color-secondary);
+  border-bottom: 1px solid var(--color-secondary);
 }
 
 nav#capitulos h2 {
@@ -128,7 +139,7 @@ nav#capitulos h2 {
 nav#capitulos > p {
   color: var(--color-secondary);
   margin-bottom: 3rem;
-}
+} 
 
 nav#capitulos ul {
   display: grid;
