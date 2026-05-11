@@ -66,6 +66,7 @@ Diseño planificado con Stitch antes de programar.
 - `style`: add Google Fonts
 - `feat`: add header
 - `style`: add header styles
+- `feat`: add header image
 - `feat`: add nav
 - `style`: add nav styles
 - `feat`: add chapter 1 - el bosque
